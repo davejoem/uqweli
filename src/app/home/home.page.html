@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content #content padding>
+  <div id="main">
+    <div #logo id="logo">
+      <div>logo</div>
+    </div>
+    <div #search id="search">
+      <ion-searchbar md animated autocorrect debounce="500" (input)="search()" showCancelButton="focus"></ion-searchbar>
+    </div>
+    <ion-grid #pages class="pages">
+      <ion-row>
+        <ion-col>
+          <ion-card padding (click)="goTo('forum')">
+            <ion-icon name="list"></ion-icon>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card padding (click)="goTo('copOfTheDay')">
+            <ion-icon name="thumbs-up"></ion-icon>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card padding (click)="goTo('iMetACop')">
+            <ion-icon name="star-outline"></ion-icon>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card padding (click)="goTo('discuss')">
+            <ion-icon name="happy"></ion-icon>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

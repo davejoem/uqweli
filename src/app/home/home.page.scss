@@ -1,0 +1,32 @@
+#main {
+  flex-direction: column;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100%;
+}
+
+#logo {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 30%;
+  width: 100%;
+}
+
+#search {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 30%;
+  width: 100%;
+  margin: 5% 0%;
+}
+
+.pages {
+  display: flex !important;
+  justify-content: bottom !important;
+  align-items: center !important;
+  height: 30%;
+  width: 100%;
+}

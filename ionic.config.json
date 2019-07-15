@@ -1,0 +1,7 @@
+{
+  "name": "qweli",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
