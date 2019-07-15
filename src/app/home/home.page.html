@@ -22,7 +22,7 @@
     <p *ngIf="searching">Found {{searchResults.length}}</p>
     <div #results id="results" *ngIf="searching">
       <ion-grid id="resgrid">
-        <ion-row *ngFor="let r of searchResults">
+        <ion-row *ngFor="let r of searchResults" (click)="showDetails()">
           <ion-card>
             <ion-card-header>
               <ion-card-title>{{ r.rule ? "Rule " + r.rule : "Section " + r.section }}</ion-card-title>

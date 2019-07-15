@@ -277,4 +277,8 @@ export class HomePage implements OnInit {
     search.style.height = "30%"
     this.searching = false
   }
+
+  showDetails() {
+    this.router.navigateByUrl('/details')
+  }
 }
