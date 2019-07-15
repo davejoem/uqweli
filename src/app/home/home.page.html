@@ -15,27 +15,43 @@
       <div>logo</div>
     </div>
     <div #search id="search">
-      <ion-searchbar md animated autocorrect debounce="500" (input)="search()" showCancelButton="focus"></ion-searchbar>
+      <ion-searchbar animated autocorrect debounce="500" (cancel)="cancelSearch()" (input)="startSearch($event)"
+        showCancelButton="focus">
+      </ion-searchbar>
     </div>
-    <ion-grid #pages class="pages">
+    <p *ngIf="searching">Found {{searchResults.length}}</p>
+    <div #results id="results" *ngIf="searching">
+      <ion-grid id="resgrid">
+        <ion-row *ngFor="let r of searchResults">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>{{ r.rule ? "Rule " + r.rule : "Section " + r.section }}</ion-card-title>
+              <ion-card-subtitle><b>Fine:</b> {{ r.fine }}</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>{{ r.description }}</ion-card-content>
+          </ion-card>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <ion-grid #pages id="pages" *ngIf="!searching">
       <ion-row>
         <ion-col>
-          <ion-card padding (click)="goTo('forum')">
+          <ion-card padding href="./forum">
             <ion-icon name="list"></ion-icon>
           </ion-card>
         </ion-col>
         <ion-col>
-          <ion-card padding (click)="goTo('copOfTheDay')">
+          <ion-card padding href="./cop-of-the-day">
             <ion-icon name="thumbs-up"></ion-icon>
           </ion-card>
         </ion-col>
         <ion-col>
-          <ion-card padding (click)="goTo('iMetACop')">
+          <ion-card padding href="./i-met-a-cop">
             <ion-icon name="star-outline"></ion-icon>
           </ion-card>
         </ion-col>
         <ion-col>
-          <ion-card padding (click)="goTo('discuss')">
+          <ion-card padding href="./discuss">
             <ion-icon name="happy"></ion-icon>
           </ion-card>
         </ion-col>
