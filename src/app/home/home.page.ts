@@ -263,12 +263,12 @@ export class HomePage implements OnInit {
     this.searchResults = []
     this.rulesArray.forEach(rule => {
       if (rule.description.includes(ev.target.value)) {
-        this.searchResults.push(rule)        
+        this.searchResults.push(rule)
       }
     })
   }
 
-  cancelSearch() {
+  cancelSearch(ev: any) {
     let logo = document.getElementById('logo')
       , search = document.getElementById('search')
       , pages = document.getElementById('pages')
@@ -276,6 +276,7 @@ export class HomePage implements OnInit {
     logo.style.height = "30%"
     search.style.height = "30%"
     this.searching = false
+    ev.target.value = ''
   }
 
   showDetails() {

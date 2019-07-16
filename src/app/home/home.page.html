@@ -15,8 +15,8 @@
       <div>logo</div>
     </div>
     <div #search id="search">
-      <ion-searchbar animated autocorrect debounce="500" (cancel)="cancelSearch()" (input)="startSearch($event)"
-        showCancelButton="focus">
+      <ion-searchbar animated autocorrect debounce="300" (ionCancel)="cancelSearch($event)"
+        (ionChange)="startSearch($event)" showCancelButton="focus">
       </ion-searchbar>
     </div>
     <p *ngIf="searching">Found {{searchResults.length}}</p>
@@ -34,7 +34,7 @@
       </ion-grid>
     </div>
     <ion-grid #pages id="pages" *ngIf="!searching">
-      <ion-row>
+      <ion-row nowrap>
         <ion-col>
           <ion-card padding href="./forum">
             <ion-icon name="list"></ion-icon>
