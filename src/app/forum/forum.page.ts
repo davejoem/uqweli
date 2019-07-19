@@ -17,4 +17,8 @@ export class ForumPage implements OnInit {
     this.location.back()
   }
 
+  segmentChanged(ev: any) {
+    
+  }
+
 }

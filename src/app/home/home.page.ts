@@ -246,7 +246,7 @@ export class HomePage implements OnInit {
       {
         "rule": " 80",
         "description": "Travelling with part of the body outside a moving vehicle. It guarantees a fine",
-        "fine": "KES 1,    000."
+        "fine": "KES 1,000."
       }
     ]
   }
@@ -257,7 +257,8 @@ export class HomePage implements OnInit {
     let logo = document.getElementById('logo')
       , search = document.getElementById('search')
       , pages = document.getElementById('pages')
-    logo.style.height = "3%"
+    logo.style.height = "10%"
+    logo.style.width = "25%"
     search.style.height = "5%"
     this.searching = true
     this.searchResults = []
@@ -272,11 +273,10 @@ export class HomePage implements OnInit {
     let logo = document.getElementById('logo')
       , search = document.getElementById('search')
       , pages = document.getElementById('pages')
-
-    logo.style.height = "30%"
-    search.style.height = "30%"
-    this.searching = false
     ev.target.value = ''
+    logo.style.height = "30%"
+    logo.style.width = "50%"
+    this.searching = false
   }
 
   showDetails() {

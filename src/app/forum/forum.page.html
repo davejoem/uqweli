@@ -10,5 +10,12 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-segment (ionChange)="segmentChanged($event)" value="recent">
+    <ion-segment-button value="recent">
+      <ion-label>Recent</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="trending">
+      <ion-label>Trending</ion-label>
+    </ion-segment-button>
+  </ion-segment>
 </ion-content>
