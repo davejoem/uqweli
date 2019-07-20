@@ -1,239 +1,557 @@
 {
   "rules": [
     {
-      "section": "12(1) and 14",
-      "description": "Driving without identification plates or plates not fixed in the prescribed manner",
-      "fine": "KES 10,000"
+      "offence": "Driving without identification plates or plates not fixed in the prescribed manner.",
+      "section": "12(1) and 14; Rule 7 of Traffic Rules",
+      "penalty": "Fine Kshs 10,000.",
+      "process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance. Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. "
     },
     {
-      "section": "16(2) and 17A(3)",
-      "description": "Driving a vehicle without a valid inspection certificate inspected",
-      "fine": "KES 10, 000"
+      "offence": "Driving a vehicle without a valid inspection certificate inspected.",
+      "section": "16(2) and 17A (3)",
+      "penalty": "Fine Kshs 10,000.",
+      "process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance. Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence."
     },
     {
-      "section": "22A(3) and (4)",
-      "description": "Failure to wear a seat belt while the motor vehicle is in motion",
-      "fine": "KES 500"
+      "offence": "Failure to wear a seat belt while the motor vehicle is in motion",
+      "section": "22A (3) and (4)",
+      "penalty": "Fine Ksh 500.",
+      "process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance. Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. "
     },
     {
+      "offence": "Driving without a valid driving license endorsement in respect of the class of vehicle",
       "section": "30(1) and (7)",
-      "description": "Driving without a valid driving license endorsement in respect of the class of vehicle",
-      "fine": "KES 7,000"
+      "penalty": "Kshs 7, 000.",
+      "process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance. Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence."
     },
     {
+      "offence": "Failure to renew a driving license",
       "section": "30(4) and 41",
-      "description": "Failure to renew a driving license",
-      "fine": "KES 1,000"
+      "penalty": "Kshs 1, 000.",
+      "process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance. Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. ",
     },
     {
-      "section": "33(c) and 41",
-      "description": "Driving a PSV while unqualified",
-      "fine": "KES 7,000"
-    },
-    {
-      "section": "36(1) and (3)",
-      "description": "Failing to carry and produce a driving license on demand",
-      "fine": "KES 1,000"
-    },
-    {
-      "section": " 42(1)",
-      "description": "Exceeding speed limit prescribed for the class of vehicle by 6-10kph",
-      "fine": "KES 3,000"
-    },
-    {
-      "section": " 42(1)",
-      "description": "Exceeding speed limit prescribed for the class of vehicle by 11-15kph",
-      "fine": "KES 6,000"
-    },
-    {
-      "section": " 42(1)",
-      "description": "Exceeding speed limit prescribed for the class of vehicle by 16-20kph",
-      "fine": "KES 10,000"
-    },
-    {
-      "section": " 42(1)",
-      "description": "Exceeding speed limit prescribed for the class of vehicle by 1-5 kph",
-      "fine": "KES 500"
-    },
-    {
-      "section": " 44 (1)",
-      "description": "Driving under influence of drink",
-      "fine": "not exceeding one hundred thousand shillings or to imprisonment for a term not exceeding two years or to both."
-    },
-    {
-      "section": " 45A (1) and (2)",
-      "description": "Driving on or through pavement or a pedestrian walkway",
-      "fine": "(a) For a first time offender, imprisonment for a term not exceeding 3 months, or a fine not more than KES 30,000 (b) For a subsequent offender to imprisonment for a term not exceeding 6 months."
-    },
-    {
-      "section": " 52(1)(a) and 52(2)",
-      "description": "Failure of a driver to obey any directions given, whether verbally or by signal, by a police officer in uniform, in the execution of their duty",
-      "fine": "KES 3,000"
-    },
-    {
-      "section": " 52(1) (b) and (2)",
-      "description": "Failure of a driver to conform to the indications given by any traffic sign",
-      "fine": "KES 3,000."
-    },
-    {
-      "section": " 52(1) (c) and (2)",
-      "description": "Failure of a driver to stop when required to do so by a police officer in uniform",
-      "fine": "KES 5,000."
-    },
-    {
-      "section": " 53(1) and 67",
-      "description": "Causing obstruction by allowing a vehicle to remain in any position on the road so as to obstruct or cause inconvenience or to other motorists using the road",
-      "fine": "KES 10,000."
-    },
-    {
-      "section": " 53(3) and (4)",
-      "description": "Failure to display reflective triangles or lifesavers in cases where any part of the vehicle remains on the road in a position so as to obstruct or cause obstruction",
-      "fine": "KES 3,000"
-    },
-    {
-      "section": " 58(1)",
-      "description": "Penalty for improper condition or overloading",
-      "fine": "Not exceeding four hundred thousand or to imprisonment for a term not exceeding two years or to both"
-    },
-    {
-      "section": " 60(1) and 60(2)",
-      "description": "Driver of a motorcycle carrying more than one person passenger",
-      "fine": "KES 1,000."
-    },
-    {
-      "section": " 90(2) (a) and 94",
-      "description": "Driving a vehicle on a footpath",
-      "fine": "KES 5,000."
-    },
-    {
-      "section": " 90(2) (c) and 94",
-      "description": "Pedestrian willfully obstructing the free passage of vehicles",
-      "fine": "KES 500"
-    },
-    {
-      "section": " 98(1) and 104",
-      "description": "Unlicensed people driving or acting as the conductor of a PSV",
-      "fine": "KES 5,000"
-    },
-    {
-      "section": " 98(1) and 104",
-      "description": "Owner or operator of PSV employing an unlicensed PSV driver or conductor",
-      "fine": "KES 10,000"
-    },
-    {
-      "section": " 51(1)",
-      "description": "Only proper fuel to be used in motor vehicles.No fuel shall be used in any motor vehicle except that specified in the vehicle license in respect to the vehicle.",
-      "fine": "Not Exceeding KES 20, 000 or to imprisonment for a term not exceeding 3 years or to both; and in addition the vehicle shall be liable to be forfeited (taken away by the police)."
-    },
-    {
-      "section": " 54(1)",
-      "description": "Racing, pace making and trial",
-      "fine": "Any person convicted of such shall be stripped off their driver’s license for 12 months from the day of conviction."
-    },
-    {
-      "section": " 58(1)",
-      "description": "Penalty for improper condition or overloading",
-      "fine": "not exceeding 400,000 or to imprisonment for a term not exceeding 2 years or to both."
-    },
-    {
-      "section": "65(1)",
-      "description": "Taking motor vehicle without consent (without permission from the owner)",
-      "fine": "2 years imprisonment or a fine not more than 50,000 or both."
-    },
-    {
-      "section": " 101(2)",
-      "description": "Failure of the conductor to refund the fare for the incomplete portion of the journey for which full fare has been paid",
-      "fine": "KES 5,000."
-    },
-    {
-      "section": " 103(1) and (2)",
-      "description": "Touting",
-      "fine": "KES 3,000."
-    },
-    {
-      "section": " 103A (1) and (7)",
-      "description": "Failure of a PSV driver or conductor to wear the special badge and uniform",
-      "fine": "KES 2, 000."
-    },
-    {
-      "section": " 103B (1) and (7)",
-      "description": "Motorcycle rider riding without protective gear",
-      "fine": "KES 1,000."
-    },
-    {
-      "section": " 103B (1) and (7)",
-      "description": "Motorcycle passenger riding without protective gear",
-      "fine": "KES 1,000."
-    },
-    {
-      "rule": " 12(1) (b)",
-      "description": "Learner driving without 'L' plates on the front and rear",
-      "fine": "KES 1,000."
-    },
-    {
-      "rule": " 130C (1) and (3)",
-      "description": "Individuals driving a PSV vehicle without being the designated driver",
-      "fine": "KES 5,000."
-    },
-    {
-      "rule": " 22A (1) and (2)",
-      "description": "Failure by the owner of the vehicle to have seat belts in the motor vehicle",
-      "fine": "KES 1,000 per seat."
-    },
-    {
-      "rule": " 22A (5) and (6)",
-      "description": "PSV conductor’s failure to keep seat belts in a clean, dry and generally wearable condition",
-      "fine": "KES 500."
-    },
-    {
-      "rule": " 25",
-      "description": "Failure of a vehicle to carry warning signs (lifesavers)",
-      "fine": "KES 2,000."
-    },
-    {
-      "rule": " 41A",
-      "description": "Failure to fit the prescribed speed governor in PSV and Commercial Vehicles",
-      "fine": "KES 10,000."
-    },
-    {
-      "section": " 52(1) (b) and (2)",
-      "description": "Offences relating to parking bays and areas where no charges are made",
-      "fine": "first conviction fine not exceeding 10,000 or to imprisonment for a term not exceeding 3 months, and on each subsequent conviction(second conviction and such) to a fine not exceeding 20,000 shillings or to imprisonment for a term not exceeding 6 months or to both."
-    },
-    {
-      "section": " 52B.",
-      "description": "Parking of vehicles carrying explosives, petroleum, except when unloading; or in an area designated by the Minister for parking of such vehicles, or allows it to be stationary more than 15 minutes",
-      "fine": "first conviction; fine not exceeding 10,      000 or to imprisonment for a term not exceeding 3 months, and on each subsequent conviction (second conviction and such) to a fine not exceeding 20,      000 shillings or to imprisonment for a term not exceeding 6 months or to both."
-    },
-    {
-      "rule": " 54A",
-      "description": "A person driving or operating a PSV with tinted windows or windscreen",
-      "fine": "KES 2, 000."
-    },
-    {
-      "rule": " 56(1), (2)",
-      "description": "Failure of a PSV to carry functional re extinguishers and re kits",
-      "fine": "KES 2,000."
-    },
-    {
-      "rule": " 59A (1)",
-      "description": "Driver using a mobile phone while the vehicle is in motion",
-      "fine": "KES 2,000."
-    },
-    {
-      "rule": " 65(f) and 72",
-      "description": "The driver of a motor omnibus or matatu picking or setting down passengers in a place that is not authorized as a bus stop or terminal",
-      "fine": "KES 3,000."
-    },
-    {
-      "rule": " 68(1) (x) and 72",
-      "description": "A passenger alighting or boarding any omnibus or matatu at a place which is not authorized as a bus stop or terminal",
-      "fine": "KES 1,000."
-    },
-    {
-      "rule": " 80",
-      "description": "Travelling with part of the body outside a moving vehicle. It guarantees a fine",
-      "fine": "KES 1,    000."
-    }
-  ]
-}
+      "offence": "Driving a PSV while unqualified.
+
+   ","section": "33(c) and 41 
+  ", "penalty": "Kshs 7,
+      000.
+ ","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+7. {
+        "offence": "Failing to carry and produce a driving license on demand  
+
+  ","section": "36(1) and (3)
+  Penalty-Kshs 1,
+        000.
+ ","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+8. {
+          "offence": "Exceeding speed limit prescribed for the class of vehicle by 6-10kph
+
+  ","section": "42(1)  
+Penalty-Kshs 3,
+          000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+9. {
+            "offence": "Exceeding speed limit prescribed for the class of vehicle by 11-15kph 
+  ","section": "42(1) 
+ ", "penalty": "Kshs 6,
+            000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+10. {
+              "offence": "Exceeding speed limit prescribed for the class of vehicle by 16-20kph 
+    ","section": "42(1)
+  ", "penalty": "Kshs 10,
+              000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+11. {
+                "offence": "Exceeding speed limit prescribed for the class of vehicle by 1-5 kph
+   ","section": "42(1) 
+  ", "penalty": "Kshs 500.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+12. {
+                  "offence": "Driving under influence of drink i.e Alcohol
+
+    ","section": "44 (1) 
+
+  ", "penalty": "a fine not exceeding 100,
+                  000 or to imprisonment for a term not exceeding 2 years or to both.
+ 
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+
+13. Offences- Driving on or through pavement or a pedestrian walkway
+
+      ","section": "45A (1) and (2) 
+
+     Penalties;
+(a)	For a first time offender, imprisonment for a term not exceeding 3 months, or a fine not more than 30,
+                  000
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+     
+(b)	For a subsequent offender to imprisonment for a term not exceeding 6 months.
+ ","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+14. {
+                    "offence": "Failure of a driver to obey any directions given, whether verbally or by signal, by a police officer in uniform, in the execution of their duty
+
+   ","section": "52(1) (a) and 52(2) 
+  Penalty-Kshs 3,
+                    000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+15. {
+                      "offence": "Failure of a driver to conform to the indications given by any traffic sign
+   ","section": "52(1) (b) and (2)
+  Penalty-Kshs 3,
+                      000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+
+
+
+
+
+
+
+
+
+16. {
+                        "offence": "Failure of a driver to stop when required to do so by a police officer in uniform
+  ","section": "52(1)(c) and (2)   
+", "penalty": "Kshs 5,
+                        000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+17. {
+                          "offence": "Causing obstruction by allowing a vehicle to remain in any position on the road so as to obstruct or cause inconvenience or to other motorists using the road.
+ ","section": "53(1) and 67 
+", "penalty": "Kshs 10,
+                          000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+18. {
+                            "offence": "Failure to display reflective triangles or lifesavers in cases where any part of the vehicle remains on the road in a position so as to obstruct or cause obstruction
+","section": "53(3) and (4) 
+", "penalty": "Kshs 3,
+                            000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+19. {
+                              "offence": "Penalty for improper condition or overloading
+ 
+  ","section": "58(1) 
+
+ ", "penalty": "a fine not exceeding 400,
+                              000 or to imprisonment for a term not exceeding 2 years or to both.
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+20. {
+                                "offence": "Driver of a motorcycle carrying more than one person passenger
+
+    ","section": "60(1) and 60(2) 
+   Penalty-Kshs 1,
+                                000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+21. {
+                                  "offence": "Driving a vehicle on a footpath 
+
+   ","section": "90(2) (a) and 94
+ ", "penalty": "Kshs-5,
+                                  000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+22. {
+                                    "offence": "Pedestrian willfully obstructing the free passage of vehicles
+ ","section": "90(2) (c) and 94
+", "penalty": "Kshs 500.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+23. {
+                                      "offence": "Unlicensed people driving or acting as the conductor of a PSV
+   ","section": "98(1) and 104 
+ Penalty-Kshs 5,
+                                      000. 
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24. {
+                                        "offence": "Owner or operator of PSV employing an unlicensed PSV driver or conductor.
+   
+   ","section": "98(1) and 104 
+ ", "penalty": "Kshs 10,
+                                        000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+25. {
+                                          "offence": "Only proper fuel to be used in motor vehicles.No fuel shall be used in any motor vehicle    except that specified in the vehicle license in respect to the vehicle.The owner and the driver and such person shall each be guilty of an offence.
+  
+","section": "51(1) 
+
+Penalty-a fine not exceeding 20,
+                                          000 or to imprisonment for a term not exceeding 3 years or to both; and in addition the vehicle shall be liable to be forfeited (taken away by the police).
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+
+26. {
+                                            "offence": "Racing, pace making and trial- i.e on the highway. 
+   ","section": "54(1)
+ Penalty-Any person convicted of such shall be stripped off their driver’s license for 12 months from the day of conviction.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+27. {
+                                              "offence": "Penalty for improper condition or overloading.
+  
+  ","section": "58(1) 
+
+ ", "penalty": "fine not exceeding 400,
+                                              000 or to imprisonment for a term not exceeding 2 years or to both.
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+
+28. Offence - Taking motor vehicle without consent (without permission from the owner).
+   ","section": "65(1)
+ Penalty - 2 years imprisonment or a fine not more than 50,
+                                              000 or both.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+29. {
+                                                "offence": "Failure of the conductor to refund the fare for the incomplete portion of the journey for which full fare has been paid.
+   ","section": "101(2) 
+ ", "penalty": "Kshs 5,
+                                                000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+
+
+
+
+
+30. {
+                                                  "offence": "Touting; making noise that would likely cause annoyance to passengers or public.
+
+   ","section": "103(1) and (2) 
+ ", "penalty": "A person who contravenes or fails to comply with this section shall be guilty of an offence and liable, for a first conviction, to a fine not 30,
+                                                  000 and for a second or subsequent conviction, to a fine not exceeding 50,
+                                                  000 or to imprisonment for a term not exceeding 12months, and in addition, the court may order confiscation of the instrument by which the offence was committed.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+
+31. {
+                                                    "offence": "Failure of a PSV driver or conductor to wear the special badge and uniform.
+
+   ","section": "103A (1) and (7) 
+ ", "penalty": "A person who contravenes or fails to comply with the provisions of this section commits an offence and shall be liable, upon conviction, to imprisonment for a term not exceeding twelve months, or to a fine of not less than ten thousand shillings, or both.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+32. {
+                                                      "offence": "Motorcycle rider riding without protective gear .
+
+    ","section": "103B (1) and (7) 
+  ", "penalty": "fine not exceeding ten thousand shillings or, in default of payment, to imprisonment for a term not exceeding twelve months.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+
+
+33. {
+                                                        "offence": "Learner driving without "L" plates on the front and rear.
+   
+   Rule- 12(1) (b) 
+ Penalty - Kshs 1000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+34. {
+                                                          "offence": "Individuals driving a PSV vehicle without being the designated driver.
+
+    Rule- 130C (1) and (3)
+  ", "penalty": "Kshs 5,
+                                                          000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+35. {
+                                                            "offence": "Failure by the owner of the vehicle to have seat belts in the motor vehicle.
+
+   Rule- 22A (1) and (2)
+ ", "penalty": "Kshs 1,
+                                                            000 per seat.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+
+36. {
+                                                              "offence": "PSV conductor’s failure to keep seat belts in a clean, dry and generally wearable condition.
+
+  Rule- 22A (5) and (6) 
+ Penalty - Kshs 500.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+37. {
+                                                                "offence": "Failure of a vehicle to carry warning signs (lifesavers).
+
+   Rule- 25
+ ", "penalty": "Kshs 2,
+                                                                000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+38. {
+                                                                  "offence": "Failure to fit the prescribed speed governor in PSV and Commercial Vehicles 
+    Rule- 41A 
+  ", "penalty": "Kshs 10,
+                                                                  000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+39. {
+                                                                    "offence": "Offences relating to parking bays and areas where no charges are made.
+ ","section": "52A
+", "penalty": "first conviction; fine not exceeding 10,
+                                                                    000 or to imprisonment for a term not exceeding 3 months, and on each subsequent conviction(second conviction and such) to a fine not exceeding 20,
+                                                                    000 shillings or to imprisonment for a term not exceeding 6 months or to both.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+40. {
+                                                                      "offence": "Parking of vehicles carrying explosives, petroleum, except when unloading; or
+in an area designated by the Minister for parking of such vehicles, or allows it to be stationary more than 15 mins.
+","section": "52B.
+", "penalty": "first conviction; fine not exceeding 10,
+                                                                      000 or to imprisonment for a term not exceeding 3 months, and on each subsequent conviction (second conviction and such) to a fine not exceeding 20,
+                                                                      000 shillings or to imprisonment for a term not exceeding 6 months or to both.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+41. {
+                                                                        "offence": "A person driving or operating a PSV with tinted windows or windscreen.
+   Rule- 54A 
+ ", "penalty": "Kshs 2,
+                                                                        000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+42. {
+                                                                          "offence": "Failure of a PSV to carry functional extinguishers and first aid kits.
+
+  Rule- 56(1),(2) 
+Penalty - Kshs 2,
+                                                                          000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+43. {
+                                                                            "offence": "Driver using a mobile phone while the vehicle is in motion 
+   Rule- 59A (1) 
+ ", "penalty": "Kshs 2,
+                                                                            000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+45. {
+                                                                              "offence": "The driver of a motor omnibus or matatu picking or setting down passengers in a place that is not authorized as a bus stop or terminal.
+
+  Rule- 65(f) and 72 
+Penalty-Kshs 3,
+                                                                              000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+
+46. {
+                                                                                "offence": "A passenger alighting or boarding any omnibus or matatu at a place which is not authorized as a bus stop or terminal
+
+   Rule- 68(1) (x) and 72  
+ ", "penalty": "Kshs1,
+                                                                                000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+47. {
+                                                                                  "offence": "Travelling with part of the body outside a moving vehicle. 
+
+    Rule- 80 
+  ", "penalty": "Kshs 1,
+                                                                                  000.
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+48. {
+                                                                                    "offence": "Using a vehicle without prescribed reflectors.
+
+   Sections- 55 and 58; rule 25
+
+ ", "penalty": "Kshs 100
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+49. {
+                                                                                      "offence": "Failure to carry an efficient silencer.
+
+  Sections- 55 and 58; Rule 26
+
+", "penalty": "Kshs 300
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+50. {
+                                                                                        "offence": "Using a vehicle emitting smoke or visible vapour.
+
+    Sections- 55 and 56; Rule 27(1)
+
+  ", "penalty": "Kshs 500
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+51. {
+                                                                                          "offence": "Using a vehicle without a driving mirror.
+
+    Sections- 55 and 58; Rule 29
+
+  ", "penalty": "Ksh 100.
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence. 
+
+
+52. {
+                                                                                            "offence": "Leaving vehicle unattended with engine running.
+
+   Sections- 66(a) and 67
+
+ ", "penalty": "Ksh 100
+
+","process": "Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or bail, on reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.” Therefore, one should not be detained since this is not a capital offence. Reasonable bail should be set and if the accused posts the required bail price then he/she should be released pending court appearance.
+
+Article 49(2) Constitution of Kenya states; A person shall not be remanded in custody for an offence   if the offence is punishable by a fine only or by imprisonment for not more than six months. Hence one should not be detained for the fore mentioned offence.
+                                                                                          ]
+                                                                                        }
