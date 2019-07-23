@@ -53,16 +53,14 @@ export class HomePage implements OnInit {
 
   cancelSearch(ev: any) {
     let logo = document.getElementById('logo')
-      , image = document.getElementById('image')
       , searcher = document.getElementById('searcher')
-      , pages = document.getElementById('pages')
-    ev.target.value = ''
+    // ev.target.value = ''
     logo.style.height = "34px"
     logo.style.width = "36px"
     logo.style.marginTop = "10%"
     logo.style.marginBottom = "0%"
     searcher.style.height = "20%"
-    image.outerHTML = '<img id="image" src="/assets/imgs/logo.png" alt = "Logo" >'
+    logo.style.backgroundImage = "url('/assets/imgs/logo2.png')"
     this.searching = false
   }
 

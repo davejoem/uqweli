@@ -11,9 +11,7 @@
 
 <ion-content #content padding>
   <div id="main">
-    <div #logo id="logo">
-      <img id="image" src="/assets/imgs/logo.png" alt="Logo">
-    </div>
+    <div #logo id="logo"></div>
     <div #search id="searcher">
       <ion-searchbar id="search" animated autocorrect debounce="300" (ionCancel)="cancelSearch($event)"
         (ionChange)="startSearch($event)" showCancelButton="focus">
