@@ -1,9 +1,9 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>
+    <ion-title color="light">
       Home
     </ion-title>
   </ion-toolbar>
@@ -12,50 +12,57 @@
 <ion-content #content padding>
   <div id="main">
     <div #logo id="logo">
-      <img src="/assets/imgs/logo.png" alt="Logo">
+      <img id="image" src="/assets/imgs/logo.png" alt="Logo">
     </div>
-    <div #search id="search">
-      <ion-searchbar animated autocorrect debounce="300" (ionCancel)="cancelSearch($event)"
+    <div #search id="searcher">
+      <ion-searchbar id="search" animated autocorrect debounce="300" (ionCancel)="cancelSearch($event)"
         (ionChange)="startSearch($event)" showCancelButton="focus">
       </ion-searchbar>
     </div>
-    <p *ngIf="searching">Found {{searchResults.length}}</p>
+    <br>
+    <p *ngIf="searching" id="found">Found {{searchResults.length}}</p>
     <div #results id="results" *ngIf="searching">
       <ion-grid id="resgrid">
-        <ion-row *ngFor="let r of searchResults" (click)="showDetails()">
-          <ion-card>
-            <ion-card-header>
-              <ion-card-title>{{ r.rule ? "Rule " + r.rule : "Section " + r.section }}</ion-card-title>
-              <ion-card-subtitle><b>Fine:</b> {{ r.fine }}</ion-card-subtitle>
+        <ion-row *ngFor="let r of searchResults" (click)="showDetails(r)">
+          <ion-card class="result">
+            <ion-card-header color="success">
+              <h3 id="section">Section {{ r.section }}</h3>
+              <h6 id="fine"><b>Penalty:</b> {{ r.penalty }}</h6>
             </ion-card-header>
-            <ion-card-content>{{ r.description }}</ion-card-content>
+            <ion-card-content>
+              <p id="offence">{{ r.offence }}.</p>
+              <span color="danger" id="readmore">Read more ...</span>
+            </ion-card-content>
           </ion-card>
         </ion-row>
       </ion-grid>
     </div>
-    <ion-grid #pages id="pages" *ngIf="!searching">
-      <ion-row nowrap>
-        <ion-col>
-          <ion-card padding href="./forum">
-            <ion-icon name="list"></ion-icon>
-          </ion-card>
-        </ion-col>
-        <ion-col>
-          <ion-card padding href="./cop-of-the-day">
-            <ion-icon name="thumbs-up"></ion-icon>
-          </ion-card>
-        </ion-col>
-        <ion-col>
-          <ion-card padding href="./i-met-a-cop">
-            <ion-icon name="star-outline"></ion-icon>
-          </ion-card>
-        </ion-col>
-        <ion-col>
-          <ion-card padding href="./discuss">
-            <ion-icon name="happy"></ion-icon>
-          </ion-card>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+    <div id="lower" *ngIf="!searching">
+      <div id="bow"></div>
+      <ion-grid #pages id="pages">
+        <ion-row nowrap>
+          <ion-col>
+            <ion-card class="icon" padding href="./forum">
+              <ion-icon name="list"></ion-icon>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card class="icon" padding href="./cop-of-the-day">
+              <ion-icon name="thumbs-up"></ion-icon>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card class="icon" padding href="./i-met-a-cop">
+              <ion-icon name="star-outline"></ion-icon>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card class="icon" padding href="./discuss">
+              <ion-icon name="happy"></ion-icon>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
   </div>
 </ion-content>

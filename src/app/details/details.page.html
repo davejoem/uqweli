@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-buttons slot="start">
       <ion-button (click)="goBack()">
         <ion-icon name="arrow-round-back"></ion-icon>
@@ -11,6 +11,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content padding>
+  <div #logo id="logo">
+    <img id="image" src="/assets/imgs/logo2.png" alt="Logo">
+  </div>
+  <div padding id="details">
+    <h3 id="section">Section {{ section }}</h3>
+    <h4 id="penalty">{{ penalty }}</h4>
+    <h6 id="offence">{{ offence }}</h6>    
+    <p id="process">{{ process }}</p>
+  </div>
 </ion-content>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common'
+import { ActivatedRoute, Router } from '@angular/router'
 
 @Component({
   selector: 'app-list',
@@ -7,29 +8,23 @@ import { Location } from '@angular/common'
   styleUrls: ['details.page.scss']
 })
 export class DetailsPage implements OnInit {
-  private selectedItem: any;
-  private icons = [
-    'flask',
-    'wifi',
-    'beer',
-    'football',
-    'basketball',
-    'paper-plane',
-    'american-football',
-    'boat',
-    'bluetooth',
-    'build'
-  ];
-  public items: Array<{ title: string; note: string; icon: string }> = [];3
-  
-  constructor(private location: Location) {
-    for (let i = 1; i < 11; i++) {
-      this.items.push({
-        title: 'Item ' + i,
-        note: 'This is item #' + i,
-        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-      });
-    }
+  public offence: string;
+  public section: string;
+  public penalty: string;
+  public process: string;
+
+  constructor(
+    private location: Location
+    , private router: Router
+    , private activateroute: ActivatedRoute
+  ) {
+    this.activateroute.params.subscribe((data: any) => {
+      console.log(data);
+      this.offence = data.offence
+      this.section = data.section
+      this.penalty = data.penalty
+      this.process = data.process
+    });
   }
 
   ngOnInit() {
