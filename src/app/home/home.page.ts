@@ -26,7 +26,7 @@ export class HomePage implements OnInit {
   ) {
     this.http.get('/assets/acts/traffic.json').subscribe(data => {
       // Read the JSON response      
-      this.rulesArray = data.json().rules      
+      this.rulesArray = data.json().rules
     });
   }
 
@@ -57,10 +57,10 @@ export class HomePage implements OnInit {
       , searcher = document.getElementById('searcher')
       , pages = document.getElementById('pages')
     ev.target.value = ''
-    logo.style.height = "30%"
+    logo.style.height = "34px"
+    logo.style.width = "36px"
     logo.style.marginTop = "10%"
     logo.style.marginBottom = "0%"
-    logo.style.width = "50%"
     searcher.style.height = "20%"
     image.outerHTML = '<img id="image" src="/assets/imgs/logo.png" alt = "Logo" >'
     this.searching = false
