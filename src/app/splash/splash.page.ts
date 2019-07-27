@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 import { Router } from '@angular/router'
 
 @Component({
@@ -13,7 +13,13 @@ export class SplashPage implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.router.navigateByUrl('/home')
-    }, 5000)
+    }, 4000)
+  }
+
+  ngOnViewDidEnter() {
+    setTimeout(() => {
+      this.router.navigateByUrl('/home')
+    }, 4000)
   }
 
 }

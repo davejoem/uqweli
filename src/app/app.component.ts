@@ -15,18 +15,18 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
-    {
-      title: 'Settings',
-      url: '/settings',
-      icon: 'settings'
-    },
+    // {
+    //   title: 'Settings',
+    //   url: '/settings',
+    //   icon: 'settings'
+    // },
     {
       title: 'Contact Us',
       url: '/contact-us',
       icon: 'call'
     },
     {
-      title: 'About Qweli',
+      title: 'About Uqweli',
       url: '/about-us',
       icon: 'information-circle-outline'
     }

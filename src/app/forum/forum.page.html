@@ -1,11 +1,13 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-buttons slot="start">
       <ion-button (click)="goBack()">
         <ion-icon name="arrow-round-back"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-title>Forum</ion-title>
+    <ion-title>
+      Forum
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -18,4 +20,21 @@
       <ion-label>Trending</ion-label>
     </ion-segment-button>
   </ion-segment>
+  <div padding *ngIf="rselected" id="recent">
+    <ion-card *ngFor="let r of rcomments">
+      <ion-card-header></ion-card-header>
+      <ion-content></ion-content>
+    </ion-card>
+  </div>
+  <div padding *ngIf="!rselected" id="trending">
+    <ion-card *ngFor="let t of tcomments">
+      <ion-card-header></ion-card-header>
+      <ion-content></ion-content>
+    </ion-card>
+  </div>
+  <ion-fab horizontal="end" vertical="bottom" (click)="addComment()">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

@@ -13,8 +13,7 @@
   <div id="main">
     <div #logo id="logo"></div>
     <div #search id="searcher">
-      <ion-searchbar id="search" animated autocorrect debounce="300" (ionCancel)="cancelSearch($event)"
-        (ionChange)="startSearch($event)" showCancelButton="focus">
+      <ion-searchbar id="search" debounce="0" (ionChange)="startSearch($event)">
       </ion-searchbar>
     </div>
     <br>

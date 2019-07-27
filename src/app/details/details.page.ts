@@ -12,14 +12,15 @@ export class DetailsPage implements OnInit {
   public section: string;
   public penalty: string;
   public process: string;
+  public inDetail: boolean
 
   constructor(
     private location: Location
     , private router: Router
     , private activateroute: ActivatedRoute
   ) {
+    this.inDetail = true
     this.activateroute.params.subscribe((data: any) => {
-      console.log(data);
       this.offence = data.offence
       this.section = data.section
       this.penalty = data.penalty
@@ -33,6 +34,10 @@ export class DetailsPage implements OnInit {
   // navigate(item) {
   //   this.router.navigate(['/list', JSON.stringify(item)]);
   // }
+
+  segmentChanged(ev: any) {
+    this.inDetail = !this.inDetail
+  }
 
   goBack() {
     this.location.back()

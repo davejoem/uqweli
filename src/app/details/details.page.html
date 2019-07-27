@@ -15,10 +15,78 @@
   <div #logo id="logo">
     <img id="image" src="/assets/imgs/logo3.png" alt="Logo">
   </div>
-  <div padding id="details">
+
+  <ion-segment (ionChange)="segmentChanged($event)" value="details">
+    <ion-segment-button value="details">
+      <ion-label>Details</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="summary">
+      <ion-label>Summary</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div padding *ngIf="inDetail" id="details">
     <h3 id="offence">{{ offence }}</h3>
     <h4 id="penalty">{{ penalty }}</h4>
     <h6 id="section">Section {{ section }}</h6>
     <p id="process">{{ process }}</p>
+  </div>
+
+  <div padding *ngIf="!inDetail" id="summary">
+    <h4 id="heading">A Summary of Bail and Bond Policy Guideline in regards to Traffic Offences</h4>
+    <div id="details">
+      <p>Article 49(1) (h) of the Constitution of Kenya gives an arrested person the right “to be released on bond or
+        bail, on
+        reasonable conditions, pending a charge or trial, unless there are compelling reasons not to be released.”</p>
+      <p>Further, Article 49(2) of the Constitution provides that “A person shall not be remanded in custody for an
+        offence if
+        the offence is punishable by a fine only or by imprisonment for not more than six months.”</p>
+      <p>The administration of bail and bond in traffic offences presents special challenges. Decision making here
+        seems
+        arbitrary, and the amount of bail is left to the discretion of the Divisional Traffic Officer. Further, while
+        the police are concerned that there is a high rate of absconding (that is, failing to attend court after
+        paying
+        cash bail), the public find the process of complying with the requirement to attend court unduly punitive,
+        particularly where the offences are committed in locations where they do not reside. This is the case, for
+        example, where an offender is caught over-speeding in Naivasha on a Sunday whilst heading to Kisumu where he
+        or
+        she resides. Typically, the police would require such a person to appear before a Naivasha court the following
+        day. Court case backlogs and lengthy trial procedures have also given police officers and traffic offenders an
+        incentive to solicit and pay bribes respectively. In such instances, police officers withdraw the charges upon
+        the offenders giving them the amount, or part, of the cash bail.</p>
+      <p>In minor traffic cases (those that attract fines of minimal amounts or sentences of less than six months),
+        police officers may issue a notice to attend court on a day not more than fourteen days from the date of the
+        alleged offence.</p>
+      <p>At the Police Station, a suspect may be released on cash bail, with or without sureties, or personal (free)
+        bond or recognizance. The Police Force Standing Orders26 require the officer in charge of a police station to
+        release any person arrested on a minor charge on the security of cash bail, as a general rule, unless the
+        officer has good grounds for believing that the arrested person will not attend court when required to do so.
+      </p>
+      <p>This cash bail should be handed into court by the date on which the arrested person should appear in court,
+        and
+        a receipt obtained.</p>
+      <p>In case a person who has been released on bail fails to appear in court, the officer in charge of the police
+        station should apply to the magistrate for a warrant of arrest. At this point, the magistrate may either order
+        the cash bail to be forfeited (if it is demonstrated that there are sufficient grounds that justify an order
+        for
+        forfeiture), or retained on court deposit until such time as the accused person appears.</p>
+      <p>It should be noted that the Police Standing Orders are categorical that a person who is released from custody
+        on either bail or bond can only be required to appear before a magistrate on a specified date, and that “Under
+        no circumstances will a prisoner who is released on bond be required to appear at a police station or other
+        place.”
+      </p>
+      <p>Where the accused person violates bail or bond terms, the police should cancel the bail or bond, re-arrest
+        him
+        or her, bring him or her to the police station, and take him or her to court.</p>
+      <p>Once the accused person has appeared in court, or the case file has been sent to the Office of the Director
+        of
+        Public Prosecution (ODPP), it shall be the responsibility of the ODPP to keep victims informed of
+        developments.in their case, including court decisions granting an accused person bail or bond, and any
+        conditions attached thereto.</p>
+      <p>Any person who alleges that a police officer has violated any of the foregoing requirements of this Policy
+        may
+        report the matter to the Independent Policing Oversight Authority (IPOA) whose function is to “hold the police
+        accountable to the public in the performance of their functions.</p>
+    </div>
   </div>
 </ion-content>

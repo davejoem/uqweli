@@ -16,55 +16,63 @@ export interface IRule {
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
-  public searching: boolean = false
-  public searchResults: any[] = []
-  public rulesArray: any[] = []
+  public searching: boolean
+  public searchResults: any[]
+  public rulesArray: any[]
 
   constructor(
     private http: Http
     , private router: Router
-  ) {
+  ) { }
+
+  ngOnInit() {
+    this.searching = false
+    this.searchResults = []
+    this.rulesArray = []
     this.http.get('/assets/acts/traffic.json').subscribe(data => {
-      // Read the JSON response      
+      // Read the JSON response and assign it to our rulesArray
       this.rulesArray = data.json().rules
     });
   }
 
-  ngOnInit() { }
-
-  startSearch(ev: any) {
+  public startSearch(ev: any) {
     let logo = document.getElementById('logo')
-      , image = document.getElementById('image')
       , searcher = document.getElementById('searcher')
-    logo.style.height = "10%"
-    logo.style.marginTop = "0%"
-    logo.style.marginBottom = "10%"
-    logo.style.width = "25%"
-    image.outerHTML = '<img id="image" src="/assets/imgs/logo2.png" alt = "Logo" >'
-    searcher.style.height = "5%"
     this.searching = true
-    this.searchResults = []
-    this.rulesArray.forEach(rule => {
-      if (rule.offence.includes(ev.target.value)) {
-        this.searchResults.push(rule)
-      }
-    })
-  }
-
-  cancelSearch(ev: any) {
-    let logo = document.getElementById('logo')
-      , searcher = document.getElementById('searcher')
-    // ev.target.value = ''
     logo.style.height = "34px"
     logo.style.width = "36px"
+    logo.style.marginTop = "0%"
+    logo.style.marginBottom = "20px"
+    logo.style.backgroundImage = "url('/assets/imgs/logo2.png')"
+    searcher.style.height = "5%"
+    this.searchResults = []
+    if (ev.target.value.length) {
+      let keyWords = ev.target.value.split(' ')
+      this.rulesArray.forEach(rule => {
+        for (let i = 0; i < keyWords.length; i++) {
+          if (keyWords[i].length) {
+            if (rule.offence.includes(keyWords[i])) {
+              if (this.searchResults.indexOf(rule) == -1) { this.searchResults.push(rule) }
+            }
+          }
+        }
+      })
+    } else { this.cancelSearch() }
+  }
+
+  private cancelSearch() {
+    let logo = document.getElementById('logo')
+      , searcher = document.getElementById('searcher')
+    this.searching = false
+    logo.style.width = "152px"
+    logo.style.height = "183px"
     logo.style.marginTop = "10%"
     logo.style.marginBottom = "0%"
     searcher.style.height = "20%"
-    logo.style.backgroundImage = "url('/assets/imgs/logo2.png')"
-    this.searching = false
+    logo.style.backgroundImage = "url('/assets/imgs/logo.png')"
   }
 
-  showDetails(rule: IRule) {
+  public showDetails(rule: IRule) {
     this.router.navigate(['/details', rule])
   }
 }

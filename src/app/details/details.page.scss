@@ -12,8 +12,20 @@
     width: 25%;
   }
 }
+#summary {
+  #heading {
+    color: #f04141  !important;
+  }
+    
+  #details {
+    p {
+      color: #868686 !important;
+    }
+  }
+}
 
 #details {
+
   #section {
     color: #086908;
     font-weight: bold;
@@ -32,4 +44,7 @@
   #process {
     color: #868686;
   }
+
+  
+
 }

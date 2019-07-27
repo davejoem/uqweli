@@ -11,9 +11,11 @@
   justify-content: center !important;
   align-items: center !important;
   align-self: center !important;
-  height: 183px;
   width: 152px;
-  margin-top: 10%;  
+  height: 183px;
+  margin-top: 10%;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
   background-image: url('/assets/imgs/logo.png');
   background-repeat: no-repeat;
 }
