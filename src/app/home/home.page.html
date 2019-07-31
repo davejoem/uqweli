@@ -13,7 +13,8 @@
   <div id="main">
     <div #logo id="logo"></div>
     <div #search id="searcher">
-      <ion-searchbar id="search" debounce="0" (ionChange)="startSearch($event)">
+      <ion-searchbar id="search" debounce="0" (ionFocus)="hideLower()" (ionBlur)="showLower()"
+        (ionChange)="startSearch($event)">
       </ion-searchbar>
     </div>
     <br>
@@ -34,7 +35,7 @@
         </ion-row>
       </ion-grid>
     </div>
-    <div id="lower" *ngIf="!searching">
+    <div id="lower">
       <div id="bow"></div>
       <ion-grid #pages id="pages">
         <ion-row nowrap>

@@ -35,6 +35,16 @@ export class HomePage implements OnInit {
     });
   }
 
+  public hideLower() {
+    let lower = document.getElementById('lower')
+    lower.style.visibility = 'hidden'
+  }
+
+  public showLower() {
+    let lower = document.getElementById('lower')
+    lower.style.visibility = 'visible'
+  }
+
   public startSearch(ev: any) {
     let logo = document.getElementById('logo')
       , searcher = document.getElementById('searcher')
@@ -70,6 +80,7 @@ export class HomePage implements OnInit {
     logo.style.marginBottom = "0%"
     searcher.style.height = "20%"
     logo.style.backgroundImage = "url('/assets/imgs/logo.png')"
+    logo.focus()
   }
 
   public showDetails(rule: IRule) {
