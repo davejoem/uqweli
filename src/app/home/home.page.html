@@ -18,7 +18,17 @@
       </ion-searchbar>
     </div>
     <br>
-    <p *ngIf="searching" id="found">Found {{searchResults.length}}</p>
+    <ion-segment *ngIf="searching" (ionChange)="segmentChanged($event)" value="all">
+      <ion-segment-button value="all">
+        <ion-label>All ({{ allResults.length }})</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="traffic">
+        <ion-label>Traffic ({{ trafficResults.length }})</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="penal">
+        <ion-label>Penal ({{ penalResults.length }})</ion-label>
+      </ion-segment-button>
+    </ion-segment>
     <div #results id="results" *ngIf="searching">
       <ion-grid id="resgrid">
         <ion-row *ngFor="let r of searchResults" (click)="showDetails(r)">

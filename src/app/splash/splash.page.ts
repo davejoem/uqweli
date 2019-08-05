@@ -13,13 +13,13 @@ export class SplashPage implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.router.navigateByUrl('/home')
-    }, 4000)
+    }, 4900)
   }
 
-  ngOnViewDidEnter() {
+  ionViewWillEnter() {
     setTimeout(() => {
       this.router.navigateByUrl('/home')
-    }, 4000)
+    }, 4900)
   }
 
 }
