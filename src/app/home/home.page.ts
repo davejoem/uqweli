@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core'
 import { Http } from '@angular/http'
 import { Router } from '@angular/router'
+import { YAML } from 'yaml'
 
 export interface IRule {
   offence: string
@@ -73,7 +74,7 @@ export class HomePage implements OnInit {
     this.trafficResults = []
     this.penalResults = []
     if (ev.detail.value.length) {
-      let keyWords = ev.detail.value.split(` `)
+      let keyWords = ev.detail.value.toLowerCase().split(` `)
       this.rulesArray.forEach(rule => {
         for (let i = 0; i < keyWords.length; i++) {
           if (keyWords[i].length) {
