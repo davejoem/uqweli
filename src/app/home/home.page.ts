@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core'
 import { Http } from '@angular/http'
 import { Router } from '@angular/router'
-import { YAML } from 'yaml'
+import YAML from 'yaml'
 
 export interface IRule {
   offence: string
@@ -41,7 +41,11 @@ export class HomePage implements OnInit {
     this.http.get(`/assets/acts/all.json`).subscribe(data => {
       // Read the JSON response and assign it to our rulesArray
       this.rulesArray = data.json().rules
-    });
+    });	
+	//this.http.get(`/assets/acts/all.yaml`).subscribe(data => {
+	//	console.log(data)
+	//	this.rulesArray = YAML.parse(data).rules
+	//})
   }
 
   private categorize(rule: IRule) {
