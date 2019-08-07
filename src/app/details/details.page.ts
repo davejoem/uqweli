@@ -91,52 +91,45 @@ export class DetailsPage implements OnInit {
 	
 	this.penalSummary = {
 	  heading: `A Summary of the Penal Code - Offences and Penalties`,
-	  details: [`
-		Punishments
-
-		Section 24. Different kinds of punishments
-		The following punishments may be inflicted by a court—
-		(a) Death;
-		(b) Imprisonment or, where the court so determines under the Community Service Orders Act, 1998, community service under a community service order;
-		(c) Detention under the Detention Camps Act;
-		(d) deleted by Act No. 5 of 2003, s. 3;
-		(e) Fine;
-		(f) Forfeiture; (property taken away as a form of punishment)
-		(g) Payment of compensation;
-
-
-		Section 25. Sentence of death
-		(1) Where any person is sentenced to death, the form of the sentence shall be to the effect only that he is to suffer death in the manner authorized by law- Death by hanging.
-
-		Death sentence shall not be applied to persons under 18 years and expectant mothers. Death sentence shall be administered under the pleasure of the president.
-
-
-		Section 26. Imprisonment
-		This can be substituted with fines. However, it must be expressly provided for in the law otherwise a number of offences have imprisonment as mandatory. Also, one can be sent to jail and still pay the subscribed fine.
-
-
-		Section 28. Fines
-		Table below shows the corresponding jail term for failure to pay the prescribed fine.However, it should be noted that some offences attract both fines and jail terms.
-
-		Amount                                                                                                                     Maximum Period
-
-		Not exceeding 500 KES……………………………………………………………...14 days.
-
-		Exceeding 500 KES but not exceeding 2000 KES…………………………………..1 month.
-
-		Exceeding 2,500 KES but not exceeding 15,000 KES………………………………3 months.
-
-		Exceeding 15,000 KES but not exceeding 50,000 KES……………………………..6 months.
-
-		Exceeding 50,000 KES....................................................................................……...12 months.
-
-
-		Section 36. General punishment for misdemeanours
-		When in this Code no punishment is specially provided for any misdemeanour, it shall be punishable with imprisonment for a term not exceeding two years or with a fine, or with both.
-
-
-		Section 37. Sentences when cumulative
-		If one is already convicted (in jail) serving a certain sentence, and he is convicted of another crime, the sentences shall be served subsequently (one after the other).However, if the court deems it so they can be served concurrently (at the same time) if the court deems it (chooses to). An exception to this is death sentences and life imprisonment sentences.`
+	  details: [
+	    `Punishments`,
+		`Section 24. Different kinds of punishments`.
+		`The following punishments may be inflicted by a court—`,
+		`(a) Death;`,
+		`(b) Imprisonment or, where the court so determines under the Community Service Orders Act, 1998, community service under a community service order;`,
+		`(c) Detention under the Detention Camps Act;`,
+		`(d) deleted by Act No. 5 of 2003, s. 3;`,
+		`(e) Fine;`,
+		`(f) Forfeiture; (property taken away as a form of punishment)`,
+		`(g) Payment of compensation;`,
+        ``,
+		`Section 25. Sentence of death`,
+		`(1) Where any person is sentenced to death, the form of the sentence shall be to the effect only that he is to suffer death in the manner authorized by law- Death by hanging.`,
+        ``,
+		`Death sentence shall not be applied to persons under 18 years and expectant mothers. Death sentence shall be administered under the pleasure of the president.`,
+		``,
+		``,
+		``,
+		`Section 26. Imprisonment`,
+		`This can be substituted with fines. However, it must be expressly provided for in the law otherwise a number of offences have imprisonment as mandatory. Also, one can be sent to jail and still pay the subscribed fine.`,
+		``,
+		``,
+		`Section 28. Fines`,
+		`Table below shows the corresponding jail term for failure to pay the prescribed fine.However, it should be noted that some offences attract both fines and jail terms.`,
+		``,
+		`Amount`,                                                                                                                     Maximum Period`,
+		``,
+		`Not exceeding 500 KES.....................................14 days.`,		
+		`Exceeding 500 KES but not exceeding KES 2000..............1 month.`,
+		`Exceeding  KES 2,500 but not exceeding KES 15,000.........3 months.`,
+		`Exceeding 15,000 KES but not exceeding KES 50,000.........6 months.`,
+		`Exceeding 50,000 KES......................................12 months.`,
+		``,
+		`Section 36. General punishment for misdemeanours`,
+		`When in this Code no punishment is specially provided for any misdemeanour, it shall be punishable with imprisonment for a term not exceeding two years or with a fine, or with both.`,
+		``,
+		`Section 37. Sentences when cumulative`,
+		`If one is already convicted (in jail) serving a certain sentence, and he is convicted of another crime, the sentences shall be served subsequently (one after the other).However, if the court deems it so they can be served concurrently (at the same time) if the court deems it (chooses to). An exception to this is death sentences and life imprisonment sentences.`
       ]
 	}
   }
