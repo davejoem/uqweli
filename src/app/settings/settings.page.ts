@@ -14,14 +14,13 @@ export class SettingsPage implements OnInit {
     private location: Location
   ) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
-  goBack() {
+  public goBack() {
     this.location.back()
   }
 
-  async performManualUpdate() {
+  public async performManualUpdate() {
     const update = await this.deploy.checkForUpdate()
     if (update.available) {
       console.log('Update found');
@@ -42,8 +41,7 @@ export class SettingsPage implements OnInit {
     }
   }
 
-
-  async performAutomaticUpdate() {
+  public async performAutomaticUpdate() {
     try {
       const currentVersion = await this.deploy.getCurrentVersion();
       const resp = await this.deploy.sync({ updateMethod: 'auto' }, percentDone => {
