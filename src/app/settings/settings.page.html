@@ -11,5 +11,14 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="performAutomaticUpdate()">Auto update</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="performManualUpdate()">Manual update</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
