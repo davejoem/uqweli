@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'splash', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'about-us', loadChildren: './about-us/about-us.module#AboutUsPageModule' },
   { path: 'contact-us', loadChildren: './contact-us/contact-us.module#ContactUsPageModule' },
   { path: 'cop-of-the-day', loadChildren: './cop-of-the-day/cop-of-the-day.module#CopOfTheDayPageModule' },
